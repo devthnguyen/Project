@@ -47,7 +47,7 @@ Dự án được xây dựng nhằm mục đích học tập và thực hành p
 ### 1. Clone project
 
 ```bash
-git clone https://github.com/your-username/pc-builder-web.git
+git clone https://github.com/devthnguyen/Project/Web_BuildPc.git
 ```
 
 ### 2. Cài đặt dependencies
@@ -74,18 +74,6 @@ npm start
 
 ---
 
-## 📸 Demo
-
-* (Thêm ảnh chụp màn hình tại đây)
-
----
-
-## 🔗 Link
-
-* GitHub: https://github.com/your-username/pc-builder-web
-* Demo: (nếu có)
-
----
 
 ## 📌 Mục tiêu
 
