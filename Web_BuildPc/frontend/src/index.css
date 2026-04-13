@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    @apply bg-primary text-neutral-200 font-sans antialiased overflow-x-hidden;
+  }
+
+  /* Compact scrollbars for modern look */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-primary-dark;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-light rounded border-2 border-primary-dark;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent-dark;
+  }
+}
+
+@layer components {
+  /* Helper component for UB-style content boxes */
+  .ub-card {
+    @apply bg-primary-dark border border-neutral-700/80 rounded-sm shadow-inner;
+  }
+  
+  /* Standard modern button style */
+  .btn-accent {
+    @apply px-4 py-2 bg-accent hover:bg-accent-light text-primary-dark font-bold text-sm rounded shadow-md transition duration-150 active:scale-95;
+  }
+}
