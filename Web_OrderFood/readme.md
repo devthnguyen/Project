@@ -46,42 +46,38 @@ Ngoài ra, dự án tập trung vào kiểm thử API và xử lý lỗi trong q
 
 ### 1. Clone repository
 
-```bash id="g3s1az"
-git clone https://github.com/devthnguyen/Project/Web_OrderFood.git
+```bash id="a1b2c3"
+git clone https://github.com/devthnguyen/Project.git
 ```
 
 ### 2. Di chuyển vào thư mục dự án
 
-```bash id="zq0j2o"
-cd [ten-repo]
+```bash id="d4e5f6"
+cd Project/Web_OrderFood
 ```
 
-### 3. Cài đặt dependencies
+---
 
-```bash id="r1j0cl"
+### 3. Chạy Backend
+
+```bash id="g7h8i9"
+cd backend
 npm install
-```
-
-### 4. Chạy dự án
-
-```bash id="p9gk8w"
 npm start
 ```
 
 ---
 
-## 📸 Demo
+### 4. Chạy Frontend
 
-* (Thêm ảnh chụp màn hình tại đây)
-
----
-
-## 🔗 Link
-
-* GitHub: https://github.com/devthnguyen/[ten-repo]
-* Demo: (nếu có)
+```bash id="j1k2l3"
+cd frontend
+npm install
+npm start
+```
 
 ---
+
 
 ## 📌 Mục tiêu
 
