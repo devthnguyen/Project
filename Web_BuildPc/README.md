@@ -1,16 +1,96 @@
-# React + Vite
+# 🛠️ Web Build PC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Giới thiệu
 
-Currently, two official plugins are available:
+Đây là dự án web cho phép người dùng lựa chọn và tham khảo các linh kiện máy tính (CPU, v.v).
+Dự án được xây dựng nhằm mục đích học tập và thực hành phát triển web fullstack.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Công nghệ sử dụng
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 Frontend
 
-## Expanding the ESLint configuration
+* ReactJS
+* HTML, CSS, JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Backend
+
+* Node.js
+* Express.js
+
+### 🔹 Database
+
+* MongoDB
+
+---
+
+## ⚙️ Chức năng chính
+
+* Hiển thị danh sách linh kiện (CPU, ...)
+* Thêm / sửa / xóa dữ liệu (CRUD)
+* Gọi API từ backend
+* Hiển thị dữ liệu từ database
+
+---
+
+## 🧪 Testing
+
+* Kiểm thử API bằng Postman (GET, POST, DELETE)
+* Kiểm tra hiển thị giao diện (UI)
+* Debug lỗi dữ liệu giữa frontend và backend
+
+---
+
+## 📂 Cài đặt và chạy dự án
+
+### 1. Clone project
+
+```bash
+git clone https://github.com/your-username/pc-builder-web.git
+```
+
+### 2. Cài đặt dependencies
+
+```bash
+cd backend
+npm install
+
+cd ../frontend
+npm install
+```
+
+### 3. Chạy project
+
+```bash
+# chạy backend
+cd backend
+npm start
+
+# chạy frontend
+cd frontend
+npm start
+```
+
+---
+
+## 📸 Demo
+
+* (Thêm ảnh chụp màn hình tại đây)
+
+---
+
+## 🔗 Link
+
+* GitHub: https://github.com/your-username/pc-builder-web
+* Demo: (nếu có)
+
+---
+
+## 📌 Mục tiêu
+
+* Thực hành phát triển web fullstack
+* Hiểu cách hoạt động của API và database
+* Rèn luyện kỹ năng kiểm thử và debug
+
+---
